@@ -7,6 +7,7 @@
 <body>
 <h1><%= "Hello World! by Jakarta Project" %>
 </h1>
+<h2><%= "Modifica da host2" %></h2>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 </body>
