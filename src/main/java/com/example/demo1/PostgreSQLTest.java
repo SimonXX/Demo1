@@ -1,6 +1,7 @@
 package com.example.demo1;
 
 
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -27,6 +28,7 @@ public class PostgreSQLTest {
         // Stampa i risultati della query
         while (rs.next()) {
             System.out.println(rs.getString("actor_id") + ", " + rs.getString("first_name"));
+
         }
 
         // Chiudi la connessione al database
